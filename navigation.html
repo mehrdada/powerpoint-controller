@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>PowerPoint Controller by Mehrdad Afshari</title>
+<style>
+.st 
+{
+	display: block; font:100px Helvetica; margin:40px; text-align:center; text-decoration: none; color: white;
+	 line-height: 500px; height:500px
+}
+</style>
+</head>
+<body style="margin:0">
+<script type="text/javascript">
+    function x() { }
+    function getURL(url) {
+        xmlHttp = new XMLHttpRequest();
+        xmlHttp.onreadystatechange = x;
+        xmlHttp.open("GET", url, true);
+        xmlHttp.send(null);
+    }
+</script>
+<a href="javascript:getURL('?action=next')" style="background-color: Green; margin-top:5px; margin-bottom:10px" class="st">Next 
+    &gt;&gt; </a>&nbsp;<a href="javascript:getURL('?action=prev')" style="background-color: Red; margin-bottom:5px" class="st">&lt;&lt; Previous</a>
+
+</body>
+</html>
